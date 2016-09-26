@@ -20,7 +20,7 @@ public class SW2 {
         /*l = 0;*/
         l = 7;
        VolumenCubo v1= new VolumenCubo(l);
-       v1.ObtenerVolumen(l);
+       v1.GetVolumen(l);
     }
     
 }

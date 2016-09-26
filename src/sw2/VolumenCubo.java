@@ -23,7 +23,7 @@ public class VolumenCubo {
     public void setLado(double lado) {
         this.lado = lado;
     }
-    
+   /* 
     public double  ObtenerVolumen(double lado){
        double resultado; 
        AreaCuadrado a1 = new AreaCuadrado(this.lado);
@@ -31,13 +31,11 @@ public class VolumenCubo {
         System.out.println("El resultado del Volumen es: " + resultado);
        return resultado;
     }
- /*   
+ */ 
     public double  GetVolumen(double lado){
        double resultado; 
        resultado = lado* lado * lado;
         System.out.println("El resultado del Volumen es: " + resultado);
        return resultado;
     }
-
-*/
 }
